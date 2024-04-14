@@ -1,0 +1,12 @@
+server:
+  host: "0.0.0.0"
+  port: "8080"
+  timeout: 30s
+
+postgres:
+  host: "0.0.0.0"
+  port: "5432"
+  user: "postgres"
+  password: "postgres"
+  dbname: "test"
+  sslMode: "disable"
