@@ -13,9 +13,11 @@ type Config struct {
 }
 
 type ServerConfig struct {
-	Host    string `yaml:"host"`
-	Port    string `yaml:"port"`
-	Timeout time.Duration
+	Host       string        `yaml:"host"`
+	Port       string        `yaml:"port"`
+	Timeout    time.Duration `yaml:"timeout"`
+	UserToken  string        `yaml:"userToken"`
+	AdminToken string        `yaml:"adminToken"`
 }
 
 type PostgresConfig struct {
